@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bad+Script&family=Caveat:wght@400..700&family=Great+Vibes&family=Pacifico&family=Press+Start+2P&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <style>
+        body{
+    background-color: black;
+}
+.title{
+    width: 100%;
+    height: 150px;
+    color: orange;
+    background-color: yellow;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Bad Script", cursive;
+}
+.main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.span-p{
+    font-size: 2em;
+    color: rgb(165, 97, 97);
+    text-shadow: -2px -2px rgb(127, 61, 61);
+}
+hr{
+    clear: both;
+}
+.p1{
+    color: red;  
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;  
+    font-family: serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: aqua;
+    text-transform: lowercase;
+}
+.p2{
+    color: orange;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;    
+    font-family: serif;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 1px 1px white;  
+    text-transform: uppercase;
+}
+.p3{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;  
+    font-weight: 750;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: aqua;
+    text-transform: lowercase;  
+}
+.p4{
+    color: green;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px; 
+    font-family: sans-serif;  
+    font-weight: 750; 
+    font-style: italic;
+    text-shadow: 1px 1px white;  
+    text-transform: uppercase;
+}
+.p5{
+    color: skyblue;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;  
+    font-family: monospace;  
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: aqua;
+    text-transform: lowercase;
+}
+.p6{
+    color: blue;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;  
+    font-family: monospace;  
+    font-weight: 800;
+    font-style: italic;
+    text-shadow: 1px 1px white;  
+    text-transform: uppercase;
+}
+.p7{
+    color: darkblue;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;    
+    font-family: cursive;
+    font-weight: 850;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: aqua;
+    text-transform: lowercase;
+}
+.p8{
+    color: pink;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;  
+    font-family: cursive;  
+    font-weight: 850;
+    font-style: italic;
+    text-shadow: 1px 1px white;  
+    text-transform: uppercase;
+}
+.p9{
+    color: violet;
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;   
+    font-family: fantasy; 
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: aqua;
+    text-transform: lowercase;
+}
+.p10{
+    color: darkviolet;
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;    
+    font-family: fantasy;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 1px 1px white;  
+    text-transform: uppercase;
+}
+.p11{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family: "Caveat", cursive;   
+    font-weight: bold; 
+}
+.p12{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;    
+    font-weight: bold; 
+}
+.p13{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;    
+    font-weight: bold; 
+}
+.p14{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 45px;
+    font-family: "Press Start 2P", system-ui;   
+    font-weight: bold;  
+}
+.p15{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif; 
+    font-weight: bold;    
+}
+.sub_sup{
+    color: white;
+}
+.main-container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt{
+    color: red;
+    background-color: yellow;
+    font-size: 100px;
+    text-align: center;
+    border: 4px orange solid;
+    font-family: "Rubik Dirt", system-ui;
+    text-shadow: 1px 1px rgb(114, 0, 0), -1px -1px rgb(114, 0, 0);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(193, 0, 0);
+}
+    </style>
+</head>
+<body>
+    <p class="title">Мої експеременти зі шрифтами</p>
+    <div class="main-container">
+        <p class="p1"><span class="span-p">Т</span>екст</p>
+        <p class="p2">Текст</p>
+        <p class="p3"><span class="span-p">Т</span>екст</p>
+        <p class="p4">Текст</p>
+        <p class="p5"><span class="span-p">Т</span>екст</p>
+        <p class="p6">Текст</p>
+        <p class="p7"><span class="span-p">Т</span>екст</p>
+        <p class="p8">Текст</p>
+        <p class="p9"><span class="span-p">Т</span>екст</p>
+        <p class="p10">Текст</p>
+        <p class="p11">Текст</p>
+        <p class="p12">Текст</p>
+        <p class="p13">Текст</p>
+        <p class="p14">Текст</p>
+        <p class="p15">Текст</p>
+    </div>
+    <hr>
+    <div class="main-container2">
+        <p class="sub_sup">H<sub>2</sub>O</p>
+        <p class="sub_sup">x<sup>2</sup></p>
+    </div>
+    <hr>
+    <p class="txt">HTML + CSS = САЙТ</p>
+</body>
+</html>

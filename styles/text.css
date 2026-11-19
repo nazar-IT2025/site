@@ -1,0 +1,103 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGYy4TMRo53NnNcbeHqSjNfnCcu4Nv0ZRNyF1PqsgUw&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 250px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: none;
+}
+#content-txt{
+    text-align: center;
+}
+.content ul li{
+    margin-top: 10px;
+}
+.content ul hr{
+    width: 150px;
+    
+}
+.main-container{
+    width: 700px;
+    height: 100%;
+    background-color: rgb(214, 237, 246);
+    border: 2px solid blue;
+    padding: 0 20px 20px 20px;
+}
+h1{
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif 4', serif;
+    font-weight: 100;
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif 4', serif;
+    font-weight: normal;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: sans-serif;
+    text-indent: 24px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+}
+.fr{
+    border: solid grey 1px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+.fr figcaption{
+    color: gray;
+}
+
+#img-crimea{
+    width: 300px;
+    height: 150px;
+}
+#img-golden_pectoral{
+    width: 300px;
+    height: 300px;
+}
+#info-golden_pectoral{
+    width: 300px;
+}
+#img-saint_sophia_cathedral{
+    width: 250px;
+    height: 225px;
+}
+#info-saint_sophia_cathedral{
+    width: 250px;
+}
+#img-ukrainian_central_rada{
+    width: 300px;
+    height: 200px;
+}
+#img-ukraine_population{
+    width: 300px;
+    height: 200px;
+}
+#img-river{
+    width: 240px;
+    height: 100px;
+}
+#info-river{
+    width: 240px;
+}
+

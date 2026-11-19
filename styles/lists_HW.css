@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.main-container{
+    width: 1400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    color: white;
+    font-size: 25px;
+}
+ol{
+    color: white;
+    font-size: 25px;
+}
+.colors li::marker{
+    color: blue;
+}
+dl, dd{
+    color: white;
+    font-size: 25px;
+}
+.roman-words li{
+    padding-left: 16px;
+}
+@counter-style lower-ukrainian {
+system: alphabetic;
+symbols: '\430' '\431' '\432' '\433' '\434' '\435' '\454' '\436' '\437' '\438' '\456' '\43A' '\43B' '\43C' '\43D' '\43E' '\43F' '\440' '\441' '\442' '\443' '\444' '\445' '\446' '\447' '\448' '\44E' '\44F';
+/* symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'ю' 'я'; */
+suffix: ') ';
+}
+.ukr{
+    list-style: lower-ukrainian;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 💀 ☠️ 🤡 👻  🕸️;
+  suffix: " ";
+}
+.emoji {
+  list-style: emoji;
+}

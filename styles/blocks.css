@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+}
+p{
+    font-size: 50px;
+    background-color: lavender;
+    color: aqua;
+    display: block;
+}
+span{
+    color: blue;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+}
+li:hover{
+    color: red;
+    background-color: blue;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#first{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 30px;
+    border-style: dashed dotted groove ridge;
+    border-color: red blue orange yellow;
+    border-radius: 5% 10%;
+    margin-bottom: 40px;
+}
+#second{
+    width: 500px;
+    height: 800px;
+    background-color: yellow;
+    padding: 50px;
+    border-width: 25px;
+    border-style: solid double;
+    border-color: orange rgb(191, 124, 0);
+}
+#third, #fourth{
+    width: 600px;
+    height: 200px;
+    background-color: orange;
+    margin: 50px;
+    border-width: 15px;
+    border-style: double solid;
+    border-color: rgb(253, 253, 32) rgb(255, 255, 0);
+    box-shadow: 10px 10px 20px black;
+}
